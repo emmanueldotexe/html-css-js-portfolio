@@ -2,12 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 1rem);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
-
-
 
 body {
   font-family: "Poppins", sans-serif;
@@ -33,7 +36,6 @@ a,
 nav,
 .nav-links {
   display: flex;
-
 }
 
 nav {
@@ -177,7 +179,6 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
-  
 }
 
 .section__text {
@@ -215,6 +216,10 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+}
+
+.dynamic-button:hover {
+  transform: scale(1.1);
 }
 
 /* BUTTONS */
@@ -277,6 +282,12 @@ section {
   margin-top: 2rem;
 }
 
+.about-containers-1:hover,
+.about-containers-2:hover,
+.about-pic:hover {
+  transform: scale(1.03);
+}
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
@@ -337,6 +348,12 @@ section {
   flex-direction: column;
 }
 
+.experience-container-1:hover,
+.experience-container-2:hover,
+.experience-container-3:hover {
+  transform: scale(1.03);
+}
+
 .article-container {
   display: flex;
   text-align: initial;
@@ -374,6 +391,12 @@ article .icon {
   height: 90%;
 }
 
+.details-container-1:hover,
+.details-container-2:hover,
+.details-container-3:hover {
+  transform: scale(1.03);
+}
+
 .project-title {
   margin: 1rem;
   color: black;
@@ -403,6 +426,11 @@ article .icon {
   margin: 2rem auto;
   padding: 1rem;
   flex-direction: column;
+}
+
+.contact-info-upper-container:hover,
+.contact-info-container:hover {
+  transform: scale(1.03);
 }
 
 .contact-info-container {
