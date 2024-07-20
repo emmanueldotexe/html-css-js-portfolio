@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../practice-html-css"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "html-css-js-portfolio"
+  }
+}
